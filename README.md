@@ -21,5 +21,6 @@ Problem 2. Fibbonacci.
 		End date: 3rd of April. 2018. Tuesday.
 
 
+
 		Simple enough too. I decided to create an array of Fibbonacci using a while loop and added all the even sums.
 		I wanted to try recurssion for this. But I'll do that for the next Fibbo assignment.
