@@ -38,11 +38,14 @@ Problem 3. Largest prime factor.
 		Also note that I won't use any information that can be found on the internet easily, say list of prime numbers. At least not for this.
 		I was thinking something on the terms that if a number is not divisible by 2, then the
 		biggest prime factor of x cannot be larger than x/3. (since the next possible factor would be 3, and it's corresponding factor x/3)
+
 		Similarly if x does not have 3 as its factor, then the biggest prime factor cannot be larger than x/5.
 		This way I can reduce the domain of search every time I check if a prime number is a factor or not.
+
 		This method requires me to get or generate a list of prime numbers in an ascending order and check for every single one. However, I want to approach from a more efficient standpoint in terms of work that python has to do.
 
 		I think I am going to write a script to prime factorize any given natural number and simply find the largest factor in the list containing the factors.
+
 		Yeah, I ended up doing that. It was a simple recursive function to factorize it. Using the function also ended up giving me the factors in ascending order, so there was no need to look up the largest number. And now I have a way to factorize any number. Nice.
 
 
