@@ -54,10 +54,14 @@ Problem 4. Largest palindrome product.
 
 
 
-		First thought is that this is heavily based on brute force. There is no other way around it. Either start multiplying largest 3-digit numbers and check if the product is palindrome or not. And even then I will need to check that the product is the largest there is (that is, I can't go on checking 999*999, 999*998, 999*997, ... 999*1).
+		First thought is that this is heavily based on brute force. There is no other way around it.
+		Either start multiplying largest 3-digit numbers and check if the product is palindrome or not.
+		And even then I will need to check that the product is the largest there is (that is, I can't go on checking 999*999, 999*998, 999*997, ... 999*1).
 
-		Oh wait. This gives me some idea. Since the order of the numbers doesn't matter, I can reduce the range that need to be searched for by enforcing the first number to be larger than the second.
+		Oh wait. This gives me some idea.
+		Since the order of the numbers doesn't matter, I can reduce the range that need to be searched for by enforcing the first number to be larger than the second.
 
-		But I still would need to check for larger products (which will also need to be found through brute force) once I have found the first palindrome number. Nope. I want something more efficient.
+		But I still would need to check for larger products (which will also need to be found through brute force) once I have found the first palindrome number.
+		Nope. I want something more efficient.
 
 		Note that the palindrome would be a 6 digit number or less. Perhaps palindromes have some property about its factors. Need to look into that.
